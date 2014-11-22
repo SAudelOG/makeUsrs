@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app>
 <head>
 	<meta charset="UTF-8">
 	<title>incializando</title>
+	
+	<!--le Style libs-->
+	<link rel="stylesheet" href="css/lib/bootstrap.min.css">
 </head>
 <body>
-	estamos arrancando esta chingadera
+	<label for="ejemplo">Escribe tu nombre</label>
+	<input id="ejemplo" type="text" ng-model="nombre">
+	<h1>hola {{nombre}} como estas estamos installando bootstrap y angular</h1>
+	<label class="label label-success">testing bootstrap</label>
+	<button class="btn btn-primary">hola soy bootstrap <span class="glyphicon glyphicon-user"></span></button>
+
+
+
+	<!--le javaScripts libs-->
+	<script src="js/lib/angular.min.js"></script>
+
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/lib/bootstrap.min.js"></script>
 </body>
 </html>
